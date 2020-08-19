@@ -1,0 +1,35 @@
+body{
+    background:#333;
+    color: #fff;
+}
+.navbar{
+    border-bottom: 3px solid #008ed6 ;
+}
+.home{
+    padding-top: 150px;
+}
+.fa-check{
+    color:#008ed6;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.home-section{
+    background: url(./img/home.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.color-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    min-height: 700px;
+}
+.card-form{
+    opacity: .8;
+}
+.form-control{
+    padding:.5rem 1rem;
+    font-size: 1.25rem;
+}
