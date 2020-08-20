@@ -1,6 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background:#333;
     color: #fff;
+}
+.row a{
+    border-radius: 25px;
 }
 .navbar{
     border-bottom: 3px solid #008ed6 ;
@@ -32,4 +38,31 @@ body{
 .form-control{
     padding:.5rem 1rem;
     font-size: 1.25rem;
+}
+.btn-outline-light-explore{
+    border-color: #6c757d;
+    color: #6c757d;
+    /* border-radius: 25px; */
+}
+.btn-outline-light-explore:hover{
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-outline-light-explore:focus{
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-outline-light{
+    border-color: #fff;
+    color: #fff;
+    /* border-radius: 25px; */
+}
+.btn-outline-light:hover{
+    color: #212529;
+    border-color: #f8f9fa;
+}
+.fade{
+    color:black;
 }
